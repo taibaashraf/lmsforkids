@@ -1,0 +1,132 @@
+body{
+	text-align: center;
+	background-image: url(../images/pic4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    
+ 	
+}
+#hea{
+ 
+   
+    margin: 60px auto;
+    
+  
+  
+}
+#hea img {
+    border:2px  black;
+    border-radius: 200%;
+    width: 130px;
+    height: 150px;
+    padding: auto;
+    float: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+/* ===================input container =======================  */
+.input-container{
+	width: 200px;
+	margin: 10px auto;
+}
+.input-container h5{
+     border:1px  white;
+     border-color: white;
+     background-color: red;
+     text-align: center;
+     border-radius: 10%;
+     width: 120px;
+     height:28px;
+    font-family: 'Lobster Two', cursive;/* font for logo*/
+    font-size: 1.5em;/*2em= 32px*/
+    color:yellow;
+    margin-left: -70px;
+     margin-bottom: -25px;
+ 
+     animation-name: example;
+     animation-duration: 1.5s;
+     animation-iteration-count: infinite;
+   
+   
+
+}
+@keyframes example {
+  from {
+    background-color: red;}
+  to {
+    background-color: purple;}
+}
+
+ 
+/*================== color ,input slider thickness*/
+.input{
+	height: 30px;
+	font-size: 1.3em;
+
+}
+ 
+#slider{
+    margin: 10px auto;   
+}
+
+/*==========================circle=============*/
+#circle{
+	height: 3px;
+	width: 3px;
+	border-radius: 100%;
+	background-color: black;
+	margin: 0 auto;
+	 }
+#container{
+
+ 	width: 900px;
+    height: 400px;
+    border: 1px solid rgba(122,174,229,0.5);
+    margin: 30px auto;
+
+}
+#paint{
+background-color: #fff;
+cursor: crosshair;
+}
+.inputcontainer2{/*save erase reset container*/
+	width: 410px;
+	margin:0 auto;
+}
+
+/*=================save erase reset ====================*/
+.input2{
+	width: 133px;
+	color: #5BB4E7;
+	font-size: 1.3em;
+	float: left;
+}
+.button{
+	background: #fff;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
+    position: relative;
+}
+.button:hover{
+    color: white;
+    background: linear-gradient(white, rgba(17,119,118,0.9));
+}
+.button:active{
+    top: 4px;/* will move top 4 when pres*/   
+}
+.eraseMode{
+    background-color: red;
+    color: white;
+}
+
+
+
+
+

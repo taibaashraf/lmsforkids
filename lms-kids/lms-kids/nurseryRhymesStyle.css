@@ -1,0 +1,92 @@
+
+body{
+    background-image: url("images/pic4a.jpg");
+ 
+}
+h3{
+    font-weight: bold;
+    color: purple;
+    text-align: center;
+
+
+}
+#study{
+    text-align: center;
+    background-image: url(homepage.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.footer {
+    background-color: #1a1a1a;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    border-bottom: 3px solid #129CF3;
+}
+#copyright {
+    width: 50%;
+}
+#copyright p {
+    color: #8C8B8A;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#copyright p a {
+    text-decoration: none;
+    color: #129CF3;
+}
+.scroll-top {
+    text-align: right;
+}
+.scroll-top a {
+    background-color: #129CF3;
+    padding: 25px;
+}
+.scroll-top a i {
+    color: #fff;
+    font-size: 25px;
+}
+
+/* -----------Navigation----------*/
+.navbar-default {
+    background-color: #d9534f;
+    border-color: #444;
+    z-index: 110;
+    transition: all 1s;
+    
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    transition: all 1s;
+    font-size: 18px;
+    top: 5px;
+    
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: red;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #B5B5B5;
+}
+.navbar-brand {
+    padding: 9px 15px;
+}
+.navbar-brand img  {
+     transition: all 1s;
+    
+}
+.navbar-default .navbar-nav > .active>a, 
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+    background-color: transparent;
+    color: #129CF3;
+} 
+#bk{
+    margin-top: 10px;
+    font-size: 30px;
+    padding-right:120px;
+    color: white;
+}
